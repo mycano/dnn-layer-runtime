@@ -6,7 +6,7 @@ Description:
 import time
 import torch
 import os
-loop_num = 200
+loop_num = 100
 
 def measure(x, net, save_size=False):
     path = "tmp.pt"

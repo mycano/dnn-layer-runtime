@@ -10,7 +10,7 @@ if __name__ == '__main__':
     # measure time in raspberry: 1.460, 0.209, 0.683, 2.283 
     for f in files:
         print("\n\n\n\n\nthe running file is {}".format(f))
-        os.system("python3 {}".format(f))
+        os.system("python {}".format(f))
     print("\n\n\n\n")
     print("-"*100)
     print("the script end ......")

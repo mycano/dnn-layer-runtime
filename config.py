@@ -6,9 +6,9 @@ Description:
 import time
 import torch
 import os
-loop_num = 100
+loop_num = 1
 
-def measure(x, net, save_size=False):
+def measure(x, net, save_size=True):
     path = "tmp.pt"
     start_time = time.time()
     try:
